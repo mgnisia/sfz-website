@@ -1,14 +1,11 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
 title = "Segelflugzentrum Königsdorf"
-theme = "bare"
-enableGitInfo = false
-
+theme = ["bare", "hugo-shortcode-gallery"]
 
 [taxonomies]
   category = 'categories'
   tag = 'tags'
-
 
 [params]
 author = "SFZ Königsdorf"

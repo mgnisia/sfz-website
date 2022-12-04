@@ -5,6 +5,4 @@ draft: false
 weight: 10
 ---
 
-Aktuelle News aus Königsdorf
-
-fasdf
+# Aktuelle News aus Königsdorf

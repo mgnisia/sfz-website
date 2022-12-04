@@ -2,6 +2,7 @@
 title: "Wetter"
 date: 2022-12-04T10:37:03+01:00
 draft: false
+weight: 10
 ---
 
 - [Austro Control](http://www.austrocontrol.at) Gut für ALPFOR
