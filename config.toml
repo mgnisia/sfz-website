@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://sfz.gnisitricks.de"
 languageCode = "en-us"
 title = "Segelflugzentrum Königsdorf"
 theme = ["bare", "hugo-shortcode-gallery"]
