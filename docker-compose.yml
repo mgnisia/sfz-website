@@ -1,0 +1,23 @@
+version: '3'
+services:
+
+  web:
+    image: nginx
+    volumes:
+      - /home/moritz_deploy/sfz-website/:/usr/share/nginx/html:ro
+    networks:
+      - traefik-public
+    labels:
+      - "traefik.backend=sfz"
+      - "traefik.docker.network=traefik-public"
+      - "traefik.frontend.rule=Host:sfz.gnisitricks.de"
+      - "traefik.port=80"
+    ports:
+      - 80
+    restart: always
+
+
+networks:
+  traefik-public:
+    external: true
+
