@@ -1,0 +1,23 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Segelflugzentrum Königsdorf"
+theme = "bare"
+enableGitInfo = false
+
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+
+[params]
+author = "SFZ Königsdorf"
+email = "hello@hello-world.com"
+repoLink = "https://github.com/orf/bare-hugo-theme"
+description = 'Something about myself'
+# PostCSS is harder than it should be to get working on a theme
+# example site. It's easy on _your_ site.
+postcss = false
+# Include the author name in the <title> of articles
+includeAuthorInTitle = true
+mainSections = ["post"]
