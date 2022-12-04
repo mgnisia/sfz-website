@@ -1,2 +1,9 @@
-{{ $image := resources.Get (.Get "src") }}
-<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+{{ $image := .Page.Resources.GetMatch (.Get "src") }}
+{{ $image := $image.Resize "1000x webp" }}
+{{ $title := "" }}
+{{ if (.Get "title") }}
+{{ $title := (.Get "title")  }}
+{{ end }}
+<figure class="image">
+  <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" title="{{ $title }}">
+</figure>
