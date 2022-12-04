@@ -1,3 +1,7 @@
 [submodule "themes/bare"]
 	path = themes/bare
 	url = git@github.com:mgnisia/bulma-hugo-theme.git
+
+[submodule "themes/hugo-shortcode-gallery"]
+	path = themes/hugo-shortcode-gallery
+	url = git@github.com:mfg92/hugo-shortcode-gallery.git
