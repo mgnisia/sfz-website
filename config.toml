@@ -1,5 +1,5 @@
 baseURL = "https://sfz.gnisitricks.de"
-languageCode = "en-us"
+languageCode = "de-de"
 title = "Segelflugzentrum Königsdorf"
 theme = ["bare", "hugo-shortcode-gallery"]
 
