@@ -2,6 +2,8 @@
 title: "Infos"
 date: 2022-12-04T10:37:03+01:00
 draft: false
+tags:
+  - wetter
 ---
 
 Neu: [Daten der Wetterstation](http://wetter.sfzkdf.de/)
